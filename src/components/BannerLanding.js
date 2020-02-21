@@ -4,11 +4,10 @@ const BannerLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Landing</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <h1 style={{backgroundImage: `url{'https://media.giphy.com/media/9JaEUZGr0h4R2/giphy.gif'}`}}>Hi, I am Sierra</h1>
+               
             </div>
         </div>
     </section>

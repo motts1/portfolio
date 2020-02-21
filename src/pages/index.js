@@ -29,60 +29,63 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${'https://media.giphy.com/media/rp3e6QBCkH1vi/giphy.gif'})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>About Me!</h3>
+                                <p>Who am I?</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/aboutme" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <br />
+                        <article style={{backgroundImage: `url(${'https://media.giphy.com/media/yflzNUmjWZSX6/giphy.gif'})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>DIVINITY</h3>
+                                <p>An online store</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/divinity" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <br />
+                        <article style={{backgroundImage: `url(${'https://media.giphy.com/media/1300w1HkjihpIY/giphy.gif'})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>EQUITY</h3>
+                                <p>Social media platform to connect artists</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/equity" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <br />
+                        {/* <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Ipsum</h3>
                                 <p>Nisl sed aliquam</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/aboutme" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Consequat</h3>
                                 <p>Ipsum dolor sit amet</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                            <Link to="/aboutme" className="link primary"></Link>
+                        </article> */}
+                        {/* <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Etiam</h3>
                                 <p>Feugiat amet tempus</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                            <Link to="/aboutme" className="link primary"></Link>
+                        </article> */}
                     </section>
-                    <section id="two">
+                    {/* <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
                             </header>
                             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/aboutme" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>
